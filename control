@@ -1,0 +1,9 @@
+Package: com.ajaidan.reachabilitytimerbegone
+Name: ReachabilityTimerBEGONE
+Version: 1.0
+Architecture: iphoneos-arm
+Description: A simple tweak to disable the timer that Apple sets on reachability.
+Maintainer: ajaidan0
+Author: ajaidan0
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
