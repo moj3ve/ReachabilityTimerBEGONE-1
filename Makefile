@@ -7,7 +7,7 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = ReachabilityTimerBEGONE
 
-ReachabilityTimerBEGONE_FILES = Tweak.x
+ReachabilityTimerBEGONE_FILES = $(wildcard Tweak/*.x)
 ReachabilityTimerBEGONE_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk

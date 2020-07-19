@@ -3,8 +3,5 @@
 @end
 
 %hook SBReachabilityManager
-
--(void)_setKeepAliveTimer {
-}
-
+-(void)_setKeepAliveTimer {}
 %end
